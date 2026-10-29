@@ -1,5 +1,5 @@
 [project]
-name = "frontend"
+name = "gotu-ai"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -8,11 +8,12 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "fastapi>=0.162.0",
     "streamlit>=1.66.1",
 ]
 
 [project.scripts]
-frontend = "frontend:main"
+gotu-ai = "gotu_ai:main"
 
 [build-system]
 requires = ["uv_build>=0.12.22,<0.13.0"]
